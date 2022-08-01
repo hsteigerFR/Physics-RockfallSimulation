@@ -4,7 +4,7 @@ Authors : Hugo Steiger, Cécile Aprili, Tristan Durey, Pierre Gibert, Antoine Qu
 Mentor : Madani Hamlaoui  
 Full documentation (in french) : https://drive.google.com/drive/folders/12cettIedVXWK-mmxdB9t7zCneQAwkQOn?usp=sharing
 
-This program was made for a group project carried out as part as my first engineering year at Mines Nancy. Its goal was to simulate rockfalls in order to predict and prevent damages on roads or buildings. The simulation is quite plain looking as the work was mainly focused on the physical model and the iterative solving of the rock movement equations. An explicit Euler method was used to solve the equations in real time.
+This program was made for a group project carried out as part as my first engineering year at Mines Nancy. Its goal was to simulate rockfalls in order to predict and prevent damages on roads or buildings. The simulation is quite plain looking as the work was mainly focused on the physical model and the iterative solving of the rock movement equations. An explicit Euler method was used to solve the equations iteratively, showing the rock movement in real time. The simulation has limitations : the separation between a bouncing behaviour and a sliding behaviour is hard to establish and may not always work properly.
 
 Here is an illustration of how the program works :
 
